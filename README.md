@@ -1,6 +1,6 @@
 Blue-Green CI/CD Deployment with Infrastructure Automation and Kubernetes Management
 
-I'm excited to share one of my recent projects: A Blue-Green CI/CD Deployment Pipeline integrated with Infrastructure Automation and Kubernetes Management on Amazon EKS!
+Project Description: A Blue-Green CI/CD Deployment Pipeline integrated with Infrastructure Automation and Kubernetes Management on Amazon EKS!
 
 This project combines Terraform, Kubernetes, and modern CI/CD practices to streamline deployments, ensure seamless environment switching, and enhance security.
 
