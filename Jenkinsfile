@@ -11,7 +11,7 @@ pipeline {
     }
     
     environment {
-        IMAGE_NAME = "divyasatpute/bankapp"
+        IMAGE_NAME = "rehan876/bankapp"
         TAG = "${params.DOCKER_TAG}"  // The image tag now comes from the parameter
         SCANNER_HOME = tool name: 'sonar-scanner'
         KUBE_NAMESPACE = 'webapps'
@@ -20,7 +20,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/divyasatpute/Blue-Green-Deployment.git'
+                git branch: 'main', url: 'https://github.com/RehanKhan876/Blue-Green-Deployment.git'
             }
         }
         stage('Compile') {
